@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body{
+    font-family: Arial, Verdana;
+    font-size:12pt;
+    padding: 0px;
+    margin: 0;
+    text-align:center; /* hack para IE6 centralizar */
+    background:#cacbcc;
+    background-image:url(../imagens/fundo.png);
+    background-repeat:repeat-x;
+    // overflow-y: scroll;
+}
+
+#navegador{
+    font-size: 18px;
+    width: 650px;
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 5px;
+    color: #990000;
+}
+
+#rodape{
+    width:90%;
+    margin-top:120px;
+    height:auto;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#666;
+}
+
+#rodape a{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#666;
+}
+
+
+
+select,textarea,input[type=text],input[type=password],input[type=date],input[type=time],input[type=email]{
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 0px 0px 4px #999;
+    -moz-box-shadow: 0px 0px 4px #999;
+    -webkit-box-shadow: 0px 0px 4px #999;
+    background: #fff;
+    font-size:16px;
+    font-family: "Lucida Grande" , verdana, arial;
+    color:#666;
+    border:1px solid #999;
+    padding: 7px;
+    height:auto;
+}
+
+input[type=submit],[type=reset]{
+    background:#838B8B;
+    color:#FFF;
+    height:auto;
+    padding: 5px;
+    font-size:16px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    font-weight: bold;
+    font-family: Verdana, Arial;
+}
+
+input[type=text]:hover, [type=password]:hover, textarea:hover{
+    background: #ffffff;
+    border:1px solid #990000;
+    color:#666;
+}
+
+select:hover{
+    background: #ffffff;
+    border:1px solid #990000;
+    color:#333;
+}
+
+#clear{ /* div para deixar o rodapé no final fixo */
+        clear:both;
+        margin:0;
+}

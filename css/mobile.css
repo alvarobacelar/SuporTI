@@ -1,0 +1,21 @@
+
+
+#conteudo-geral{
+    width: 96%;
+    margin: auto;
+}
+
+#login1{
+    width:35%;
+    height:auto;
+    float: right;
+    margin-right: 30px;
+    background-image: url(../imagens/login.png);
+    position:relative;
+    padding:10px;
+    top:30px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 0.0em 0em 3em #333;
+
+}

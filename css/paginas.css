@@ -1,0 +1,174 @@
+/* 
+    Document   : paginas
+    Created on : 30/06/2013, 12:55:41
+    Author     : Alvaro
+    Description: estilização de toda as paginas so sistema
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#cadastraNovo{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+}
+
+#informativo{
+    width: 70%;
+    height: auto;
+    text-align: left;
+    margin: 20px auto;
+}
+
+#relatorioImp{
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+#chamado-novo{
+    width: 90%;
+    height: auto;
+    background-image: linear-gradient(to bottom, #CCC, #FFF);
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
+}
+
+#alter-senha{
+    width: 30%;
+    height: auto;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
+}
+
+.cad{text-align: left;}
+
+.destino{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:11px;
+    color:#F00;
+}
+
+#chamado{
+    text-align: left;
+}
+
+#view-chamado{
+    text-align: left;
+    font-size: 15px;
+}
+
+caption{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.resposta{
+    border: 1px #999 solid;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 4px;
+    -moz-border-radius:4px;
+    box-shadow: 0px 0px 10px #333;
+}
+
+.quant-resposta{
+    width: 120px;
+    float: right;
+    text-align: center;
+    background-color: #C00;
+    color: #fff;
+    font-size: 11px;
+    padding: 2px;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    -moz-border-radius:4px;
+    box-shadow: 0px 0px 9px #333;
+}
+
+.resposta-admin{
+    width: 110px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #C00;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    -moz-border-radius:4px;
+    box-shadow: 0px 0px 9px #333;
+}
+
+#cont-resposta-admin{
+    color: #666;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#erro404{
+    width: 70%;
+    height: 200px;
+    background-color: #CCC;
+    margin: 40px auto;
+    color: #C00;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px #666;
+}
+
+#relatorio{
+    width: 200px;
+    margin: auto;
+    text-align: left;
+}
+
+#parecer-tecnico{
+    width: 70%;
+    margin: auto;
+    border: 1px #999 solid;
+    padding: 10px;
+    border-radius: 4px;
+    -moz-border-radius:4px;
+    box-shadow: 0px 0px 10px #333;
+}
+
+#radio{
+    width: 150px;
+    margin: auto;
+}
+
+#termo-uso{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 4px;
+    -moz-border-radius:4px;
+    box-shadow: 0px 0px 30px #666;
+}
+
+.informe{
+    width: 70%;
+    height: auto;
+    margin: 30px auto;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 6px;
+    box-shadow: inset 0 4px 5px 0 rgba(255,255,255,.3), inset 0 -6px 12px 0 rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.2);
+}
